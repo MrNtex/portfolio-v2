@@ -25,9 +25,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
-        {children}
+        <main className="flex-1 flex flex-col">
+          {children}
+        </main>
+        <footer className="flex items-center justify-end pr-4 py-4 bg-white dark:bg-black">
+        <p className="text-sm text-right text-zinc-600 dark:text-zinc-400">
+          © 2025 💚 Artur Niemiec.
+        </p>
+      </footer>
       </body>
     </html>
   );
