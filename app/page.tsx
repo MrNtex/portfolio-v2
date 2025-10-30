@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+  <div className="flex flex-1 items-center justify-center bg-zinc-50 dark:bg-black">
       <section className="flex w-full max-w-3xl flex-col items-center py-16 sm:py-24 bg-white dark:bg-black sm:items-start text-lg leading-8 text-zinc-600 dark:text-zinc-400">
         <h1 className="text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 ">
           Hi, I'm Artur Niemiec
@@ -26,7 +26,7 @@ export default function Home() {
         <h4 className="text-lg font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
           Let's talk - <a href="mailto:rtrniemiec@proton.me">rtrniemiec@proton.me</a>, or <a href="https://www.linkedin.com/in/artur-niemiec/"> [LinkedIn]</a>
         </h4>
-        <div className="flex gap-1.5">
+        <div className="flex gap-1.5 text-stone-600">
           <a href="https://github.com/MrNtex" target="_blank" rel="noopener noreferrer">[GitHub]</a> 
           <a href="https://github.com/MrNtex" target="_blank" rel="noopener noreferrer">[Projects]</a>
         </div>
