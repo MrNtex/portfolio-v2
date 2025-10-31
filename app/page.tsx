@@ -28,7 +28,7 @@ export default function Home() {
         </h4>
         <div className="flex gap-1.5 text-stone-600">
           <a href="https://github.com/MrNtex" target="_blank" rel="noopener noreferrer">[GitHub]</a> 
-          <a href="https://github.com/MrNtex" target="_blank" rel="noopener noreferrer">[Projects]</a>
+          <a href="./projects" target="_blank" rel="noopener noreferrer">[Projects]</a>
         </div>
         
       </section>
