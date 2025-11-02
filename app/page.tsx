@@ -20,8 +20,8 @@ export default function Home() {
         <Image
           src="/signature.png"
           alt="Signature"
-          width={150}
-          height={150}
+          width={250}
+          height={159}
         ></Image>
         <h4 className="text-lg font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
           Let's talk - <a href="mailto:rtrniemiec@proton.me">rtrniemiec@proton.me</a>, or <a href="https://www.linkedin.com/in/artur-niemiec/"> [LinkedIn]</a>
