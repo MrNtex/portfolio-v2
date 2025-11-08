@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
   <div className="flex flex-1 items-center justify-center bg-black">
-      <section className="flex w-full max-w-3xl flex-col items-center py-16 sm:py-24 bg-black sm:items-start text-lg leading-8 text-zinc-400">
+      <section className="flex w-full max-w-3xl flex-col py-16 bg-black items-start text-lg leading-8 text-zinc-400">
         <h1 className="text-3xl font-semibold leading-10 tracking-tight text-zinc-50 ">
           Hi, I'm Artur Niemiec
         </h1>
