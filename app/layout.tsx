@@ -30,8 +30,8 @@ export default function RootLayout({
         <main className="flex-1 flex flex-col">
           {children}
         </main>
-        <footer className="flex items-center justify-end pr-4 py-4 bg-white dark:bg-black">
-        <p className="text-sm text-right text-zinc-600 dark:text-zinc-400">
+        <footer className="flex items-center justify-end pr-4 py-4 bg-black">
+        <p className="text-sm text-right text-zinc-400">
           © 2025 💚 Artur Niemiec.
         </p>
       </footer>
