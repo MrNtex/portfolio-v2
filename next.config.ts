@@ -1,7 +1,20 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return [
+      {
+        source: "/projects/NebulaExchange/:path*",
+        destination: "https://github.com/MrNtex/NebulaExchange",
+        permanent: true,
+      },
+      {
+        source: "/projects/ANIEngine/:path*",
+        destination: "https://github.com/MrNtex/ANIEngine",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
