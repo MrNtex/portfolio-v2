@@ -32,7 +32,7 @@ export default function RootLayout({
           <BreadcrumbNav />
           {children}
         </main>
-        <footer className="flex items-center justify-end pr-4 py-4 bg-black">
+        <footer className="flex items-center justify-end pr-4 py-4">
         <p className="text-sm text-right text-zinc-400">
           © 2025 💚 Artur Niemiec.
         </p>
