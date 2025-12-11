@@ -17,6 +17,10 @@ export default function Home() {
         <p className="text-lg pt-4 text-zinc-400">
           In my free time, I learn as much as I can about Math and Quantitative Finance. I hope to have a FinTech startup one day.
         </p>
+
+        <p className="text-lg pt-4 text-zinc-400">
+          See my <a href="./projects" className="underline text-white font-bold hover:text-amber-50">personal projects</a> or get in touch!
+        </p>
         <Image
           src="/signature.png"
           alt="Signature"
