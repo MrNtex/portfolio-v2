@@ -123,7 +123,7 @@ const GravAssistDemo = () => {
       <div className="mt-4 font-mono text-slate-400 text-sm">
         Coordinates: {Math.round(position.x)}, {Math.round(position.y)}; Force Vector: (
         {forceVector.x.toFixed(3)}, 
-        {-forceVector.y.toFixed(3)} )
+        {-forceVector.y.toFixed(3)})
       </div>
     </div>
   );
