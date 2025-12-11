@@ -18,6 +18,7 @@ export const projects: ListedProjectProps[] = [
     title: "Portal Chess",
     description: '"Portal Chess" is a fresh take on the timeless strategy of chess, inspired by an idea from friends. This game transforms the traditional chessboard into a 4x8 grid, introducing the power of teleporting from one end of the board to another.',
     link: "https://github.com/MrNtex/PortalChess",
+    otherLinks: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.anindustries.PortalChess" }],
     technologies: ["react-native", "JavaScript"]
   },
   {
@@ -30,6 +31,8 @@ export const projects: ListedProjectProps[] = [
     title: "GravAssist",
     description: "Created a 2D space game where players navigate a spaceship using gravitational slingshots around planets to reach targets. Developed realistic physics and engaging gameplay mechanics.",
     link: "https://github.com/MrNtex/GravAssist",
+    otherLinks: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.ArturNiemiec.GravAssist" }],
+    demoLink: "projects/grav-assist-demo",
     technologies: ["C#", "Unity"]
   }
 ];
