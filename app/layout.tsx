@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import BreadcrumbNav from "@/components/breadcrumb-nav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col font-mono`}
       >
         <main className="flex-1 flex flex-col px-6 md:px-0">
+          <BreadcrumbNav />
           {children}
         </main>
         <footer className="flex items-center justify-end pr-4 py-4 bg-black">
