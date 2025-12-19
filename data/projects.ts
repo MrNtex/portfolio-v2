@@ -19,6 +19,8 @@ export const projects: ListedProjectProps[] = [
     title: "eSenior",
     description: "Led a team to develop an award-winning app aimed at reducing digital exclusion among the elderly. This project won 1st place out of 16 teams at the BiteHack 2024 competition.",
     link: "https://github.com/DROP-TABLE-Druzyny/BiteHack",
+    demoLink: "projects/esenior-demo",
+    otherLinks: [{ label: "PDF presentation (PL)", url: "https://github.com/DROP-TABLE-Druzyny/BiteHack/blob/main/Project-presentation.pdf" }],
     technologies: ["React.js", "Django"],
     favorite: true
   },
