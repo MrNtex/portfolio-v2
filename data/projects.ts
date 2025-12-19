@@ -8,7 +8,6 @@ export const projects: ListedProjectProps[] = [
     link: "https://github.com/MrNtex/Friction",
     otherLinks: [{ label: "Chrome Web Store", url: "https://chromewebstore.google.com/detail/friction/eldgcoknahclehggomifndhangdmedij" }],
     technologies: ["JavaScript", "Chrome Extensions API"],
-    favorite: true
   },
   {
     title: "Nebula Exchange",
@@ -43,7 +42,8 @@ export const projects: ListedProjectProps[] = [
     link: "https://github.com/MrNtex/GravAssist",
     otherLinks: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.ArturNiemiec.GravAssist" }],
     demoLink: "projects/grav-assist-demo",
-    technologies: ["C#", "Unity"]
+    technologies: ["C#", "Unity"],
+    favorite: true
   },
 ];
 
