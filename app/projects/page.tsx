@@ -9,11 +9,11 @@ export default function Page() {
         <h1 className='text-2xl font-semibold py-4 '>My Projects</h1>
         <h3 className='text-md font-light pb-6 text-zinc-500'>[Project titles] link to GitHub repositories</h3>
         <ul>
-        {
-          projects.map((project) => (
+        {[...projects]
+          .sort((a, b) => Number(!!b.favorite) - Number(!!a.favorite))
+          .map((project) => (
             <ListedProject key={project.title} {...project} />
-          ))
-        }
+          ))}
       </ul>
       </div>
     </div>
