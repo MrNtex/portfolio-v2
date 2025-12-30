@@ -47,6 +47,13 @@ export const projects: ListedProjectProps[] = [
     technologies: ["C#", "Unity"],
     favorite: true
   },
+  {
+    title: "3D CPU Thermal Simulator",
+    description: "Built a custom 3D Finite Element Method (FEM) engine from scratch to simulate CPU thermodynamics. Modeled heat transfer through multi-layer components (Silicon, IHS, Paste, Heatsink) considering realistic material properties. Implemented sparse matrix optimizations (SciPy) for performance and created an interactive 3D visualization using PyVista to analyze the impact of thermal paste application patterns.",
+    link: "https://github.com/MrNtex/Finite-Elements-Method/tree/main/3D",
+    technologies: ["Python", "NumPy", "SciPy", "PyVista"],
+    favorite: true
+  },
 ];
 
 export default projects;
